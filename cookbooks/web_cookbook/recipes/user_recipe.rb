@@ -1,9 +1,5 @@
-user "ashish" do
- action :create
+%(Avni nabha baru).each do |P|
+   user P do
+    action :create
+   end
 end
-
-group "devops" do
- action :create
- members "ashish"
- append true
-end 
